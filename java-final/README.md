@@ -95,35 +95,37 @@
 ---
 # 조형래
 ## Class Diagram
-![class-diagram.png](..%2F..%2F..%2F..%2FUsers%2Fppirae%2FDesktop%2Fclass-diagram.png)</br>
+<img width="1293" alt="class-diagram" src="https://user-images.githubusercontent.com/76774733/210210972-5b88d60f-812f-4bd4-8354-c5b460520dea.png">
 
 ## E-R Diagram
-![e-r diagram.png](..%2F..%2F..%2F..%2FUsers%2Fppirae%2FDesktop%2Fe-r%20diagram.png)</br>
+<img width="1059" alt="e-r diagram" src="https://user-images.githubusercontent.com/76774733/210210980-7e9720fc-2e09-4f53-b631-786cbb5a1cfc.png">
+
 ## API 명세서
 1. 사전 수강신청</br>
     **설명**: 사전 수강신청 api 입니다.</br>　　　신청을 원하는 학생 번호와 강의 번호를 JSON 형태로 넣습니다.</br>
     **URL**: localhost:8080/api/v1/enrolment/pre</br>
     **METHOD**: POST</br>
     **REQUEST**: </br>
-    ![request1.png](..%2F..%2F..%2F..%2FUsers%2Fppirae%2FDesktop%2Frequest1.png)</br>
+    <img width="245" alt="request1" src="https://user-images.githubusercontent.com/76774733/210210994-261b5230-c362-43c9-bcc2-d467ecf1e0f8.png">
+
     **RESPONSE**: </br>
-    ![response1.png](..%2F..%2F..%2F..%2FUsers%2Fppirae%2FDesktop%2Fresponse1.png)</br></br>
+    <img width="481" alt="response1" src="https://user-images.githubusercontent.com/76774733/210211019-601d8765-f8ef-4c76-92fc-9af40c9cdbdf.png">
+
 
 2. 사전 수강신청 취소</br>
    **설명**: 사전 수강신청 취소 API 입니다.</br>　　　취소를 원하는 학생번호와 강의 번호를 JSON 형태로 넣습니다.</br>
    **URL**: localhost:8080/api/v1/enrolment/pre</br>
    **METHOD**: DELETE</br>
    **REQUEST**: </br>
-    ![request1.png](..%2F..%2F..%2F..%2FUsers%2Fppirae%2FDesktop%2Frequest1.png)</br>
+   <img width="245" alt="request1" src="https://user-images.githubusercontent.com/76774733/210210994-261b5230-c362-43c9-bcc2-d467ecf1e0f8.png">
    **RESPONSE**: </br>
-   ![response2.png](..%2F..%2F..%2F..%2FUsers%2Fppirae%2FDesktop%2Fresponse2.png)</br></br>
+    <img width="479" alt="response2" src="https://user-images.githubusercontent.com/76774733/210211027-95ac1af3-0d72-48b8-936c-86a71a029f6d.png">
 
 3. 본 수강신청</br>
    **설명**: 본 수강신청 API 입니다.</br>　　　신청을 원하는 학생 번호와 강의 번호를 JSON 형태로 넣습니다.</br>
    **URL**: localhost:8080/api/v1/enrolment/real</br>
    **METHOD**: POST</br>
    **REQUEST**: </br>
-    ![request1.png](..%2F..%2F..%2F..%2FUsers%2Fppirae%2FDesktop%2Frequest1.png)</br>
    **RESPONSE**: </br>
     ![response3.png](..%2F..%2F..%2F..%2FUsers%2Fppirae%2FDesktop%2Fresponse3.png)</br></br>
     
@@ -133,9 +135,10 @@
    **URL**: localhost:8080/api/v1/enrolment/real</br>
    **METHOD**: DELETE</br>
    **REQUEST**: </br>
-    ![request1.png](..%2F..%2F..%2F..%2FUsers%2Fppirae%2FDesktop%2Frequest1.png)</br>
+   <img width="245" alt="request1" src="https://user-images.githubusercontent.com/76774733/210210994-261b5230-c362-43c9-bcc2-d467ecf1e0f8.png">
    **RESPONSE**: </br>
-    ![response4.png](..%2F..%2F..%2F..%2FUsers%2Fppirae%2FDesktop%2Fresponse4.png)</br></br>
+    <img width="477" alt="response4" src="https://user-images.githubusercontent.com/76774733/210211047-5a9a0f12-5891-4513-913d-b9dff08f9acb.png">
+
 
 5. 강의 리스트 보기</br>
    **설명**: 강의 리스트를 볼 수 있는 API 입니다.</br>
@@ -143,8 +146,8 @@
    **METHOD**: GET</br>
    **REQUEST**: X</br>
    **RESPONSE**: </br>
-   ![response5.png](..%2F..%2F..%2F..%2FUsers%2Fppirae%2FDesktop%2Fresponse5.png)</br></br>
-    
+    <img width="259" alt="response5" src="https://user-images.githubusercontent.com/76774733/210211050-dce95d28-3640-4186-812f-1aef413e03e5.png">
+
 
 6. 본 수강신청 취소</br>
    **설명**: 교수별 강의 신청 현황을 볼 수 있는 API 입니다.</br>　　　교수의 identificationNum을 /뒤에 붙여주세요.</br>
@@ -152,7 +155,8 @@
    **METHOD**: GET</br>
    **REQUEST**: X</br>
    **RESPONSE**: </br>
-    ![response6.png](..%2F..%2F..%2F..%2FUsers%2Fppirae%2FDesktop%2Fresponse6.png)</br></br>
+    <img width="301" alt="response6" src="https://user-images.githubusercontent.com/76774733/210211056-3790b4a3-4655-430c-8f97-b920037034f0.png">
+
 
 ## 사전 수강 신청 기간이 지날때</br>
 EnrolmentService의 AfterBasketPeriod 메서드에서</br>
