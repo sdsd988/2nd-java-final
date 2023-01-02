@@ -106,10 +106,10 @@
     **URL**: localhost:8080/api/v1/enrolment/pre</br>
     **METHOD**: POST</br>
     **REQUEST**: </br>
-    <img width="245" alt="request1" src="https://user-images.githubusercontent.com/76774733/210210994-261b5230-c362-43c9-bcc2-d467ecf1e0f8.png">
+    <img width="245" alt="request1" src="https://user-images.githubusercontent.com/76774733/210210994-261b5230-c362-43c9-bcc2-d467ecf1e0f8.png"></br>
 
     **RESPONSE**: </br>
-    <img width="481" alt="response1" src="https://user-images.githubusercontent.com/76774733/210211019-601d8765-f8ef-4c76-92fc-9af40c9cdbdf.png">
+    <img width="481" alt="response1" src="https://user-images.githubusercontent.com/76774733/210211019-601d8765-f8ef-4c76-92fc-9af40c9cdbdf.png"></br>
 
 
 2. 사전 수강신청 취소</br>
@@ -117,25 +117,24 @@
    **URL**: localhost:8080/api/v1/enrolment/pre</br>
    **METHOD**: DELETE</br>
    **REQUEST**: </br>
-   <img width="245" alt="request1" src="https://user-images.githubusercontent.com/76774733/210210994-261b5230-c362-43c9-bcc2-d467ecf1e0f8.png">
+   <img width="245" alt="request1" src="https://user-images.githubusercontent.com/76774733/210210994-261b5230-c362-43c9-bcc2-d467ecf1e0f8.png"></br>
    **RESPONSE**: </br>
-    <img width="479" alt="response2" src="https://user-images.githubusercontent.com/76774733/210211027-95ac1af3-0d72-48b8-936c-86a71a029f6d.png">
+    <img width="479" alt="response2" src="https://user-images.githubusercontent.com/76774733/210211027-95ac1af3-0d72-48b8-936c-86a71a029f6d.png"></br>
 
 3. 본 수강신청</br>
    **설명**: 본 수강신청 API 입니다.</br>　　　신청을 원하는 학생 번호와 강의 번호를 JSON 형태로 넣습니다.</br>
    **URL**: localhost:8080/api/v1/enrolment/real</br>
    **METHOD**: POST</br>
-   **REQUEST**: </br>
+   **REQUEST**: </br><img width="245" alt="request1" src="https://user-images.githubusercontent.com/76774733/210210994-261b5230-c362-43c9-bcc2-d467ecf1e0f8.png"></br>
    **RESPONSE**: </br>
-    ![response3.png](..%2F..%2F..%2F..%2FUsers%2Fppirae%2FDesktop%2Fresponse3.png)</br></br>
-    
+   <img width="479" alt="response3" src="https://user-images.githubusercontent.com/76774733/210211030-5e3bf04a-79f3-4eb3-958f-2b8be099b1f9.png"></br>
 
 4. 본 수강신청 취소</br>
    **설명**: 본 수강신청 취소 API 입니다.</br>　　　취소를 원하는 학생번호와 강의 번호를 JSON 형태로 넣습니다.</br>
    **URL**: localhost:8080/api/v1/enrolment/real</br>
    **METHOD**: DELETE</br>
    **REQUEST**: </br>
-   <img width="245" alt="request1" src="https://user-images.githubusercontent.com/76774733/210210994-261b5230-c362-43c9-bcc2-d467ecf1e0f8.png">
+   <img width="245" alt="request1" src="https://user-images.githubusercontent.com/76774733/210210994-261b5230-c362-43c9-bcc2-d467ecf1e0f8.png"></br>
    **RESPONSE**: </br>
     <img width="477" alt="response4" src="https://user-images.githubusercontent.com/76774733/210211047-5a9a0f12-5891-4513-913d-b9dff08f9acb.png">
 
@@ -149,7 +148,7 @@
     <img width="259" alt="response5" src="https://user-images.githubusercontent.com/76774733/210211050-dce95d28-3640-4186-812f-1aef413e03e5.png">
 
 
-6. 본 수강신청 취소</br>
+6. 교수자별 신청 현황 보기</br>
    **설명**: 교수별 강의 신청 현황을 볼 수 있는 API 입니다.</br>　　　교수의 identificationNum을 /뒤에 붙여주세요.</br>
    **URL**: localhost:8080/api/v1/lecture/{identificationId}</br>
    **METHOD**: GET</br>
