@@ -56,7 +56,7 @@ public class InitDb {
             em.persist(member9);
             em.persist(member10);
 
-            Lecture lecture1 = new Lecture("blanc","컴퓨터공학","자료구조", 1, 3, "화요일", LocalTime.of(10,0),LocalTime.of(13,0), LocalDateTime.of(2023,1,11,14,0),
+            Lecture lecture1 = new Lecture("blanc","컴퓨터공학","자료구조", 5, 3, "화요일", LocalTime.of(10,0),LocalTime.of(13,0), LocalDateTime.of(2023,1,11,14,0),
                     LocalDateTime.of(2023,1,11,18,0),LocalDateTime.of(2023,1,1,14,0),
                     LocalDateTime.of(2023,1,10,18,0));
 
